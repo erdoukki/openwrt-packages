@@ -191,10 +191,10 @@ while true; do
 	git fetch origin --deepen=50
 done
 
-if [ "$TRAVIS_PULL_REQUEST" = false ] ; then
-	echo "Only Pull Requests are supported at the moment." >&2
-	exit 0
-fi
+#if [ "$TRAVIS_PULL_REQUEST" = false ] ; then
+#	echo "Only Pull Requests are supported at the moment." >&2
+#	exit 0
+#fi
 
 
 if [ $# -ne 1 ] ; then
