@@ -27,7 +27,7 @@ include $(INCLUDE_DIR)/package.mk
 define Package/usbutils
   SECTION:=utils
   CATEGORY:=Utilities
-  DEPENDS:=+libusb-1.0 +librt +libpthread +libudev
+  DEPENDS:=+libusb-1.0 +librt +libpthread +libudev-fbsd
   TITLE:=USB devices listing utilities
   URL:=http://www.linux-usb.org/
 endef
