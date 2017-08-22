@@ -94,6 +94,8 @@ EOF
 
 	./scripts/feeds update -a
 	./scripts/feeds install -a
+	./scripts/feeds uninstall $PKGS
+	./scripts/feeds install -p packages -d m -f $PKGS
 	make defconfig
 	echo_blue "=== Setting up SDK done"
 
