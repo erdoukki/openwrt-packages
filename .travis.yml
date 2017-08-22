@@ -16,3 +16,10 @@ notifications:
   on_success: always # default: always
   on_failure: always # default: always
   on_start: always   # default: never
+addons:
+  apt:
+    sources:
+      - ubuntu-toolchain-r-test
+    packages:
+      - libglib2.0-0
+      - libglib2.0-dev
