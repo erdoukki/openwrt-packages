@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2007-2016 OpenWrt.org
+# Copyright (C) 2007-2017 OpenWrt.org
 #
 # This is free software, licensed under the GNU General Public License v2.
 # See /LICENSE for more information.
@@ -15,8 +15,7 @@ PKG_LICENSE_FILES:=COPYING
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.xz
 PKG_SOURCE_URL:=@GNU/nano
-#PKG_MD5SUM:=002703e368e07882f75e304c8860d83d
-#PKG_HASH:=a64d24e6bc4fc448376d038f9a755af77f8e748c9051b6f45bf85e783a7e67e4
+PKG_HASH:=a64d24e6bc4fc448376d038f9a755af77f8e748c9051b6f45bf85e783a7e67e4
 
 PKG_INSTALL:=1
 PKG_BUILD_PARALLEL:=1

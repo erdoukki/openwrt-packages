@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2009-2016 OpenWrt.org
+# Copyright (C) 2009-2017 OpenWrt.org
 #
 # This is free software, licensed under the GNU General Public License v2.
 # See /LICENSE for more information.
@@ -13,7 +13,7 @@ PKG_RELEASE:=1
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.xz
 PKG_SOURCE_URL:=@KERNEL/software/scm/git/
-#PKG_MD5SUM:=dd4e3360e28aec5bb902fb34dd7fce3b
+PKG_MD5SUM:=dd4e3360e28aec5bb902fb34dd7fce3b
 
 PKG_INSTALL:=1
 PKG_BUILD_PARALLEL:=1

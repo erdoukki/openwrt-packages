@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2006-2015 OpenWrt.org
+# Copyright (C) 2006-2017 OpenWrt.org
 #
 # This is free software, licensed under the GNU General Public License v2.
 # See /LICENSE for more information.
@@ -16,7 +16,7 @@ PKG_LICENSE_FILES:=LICENSE
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
 PKG_SOURCE_URL:=http://download.aircrack-ng.org/ \
 		http://archive.aircrack-ng.org/aircrack-ng/$(PKG_VERSION)/
-#PKG_MD5SUM:=c2f8648c92f7e46051c86c618d4fb0d5
+PKG_MD5SUM:=c2f8648c92f7e46051c86c618d4fb0d5
 
 PKG_BUILD_PARALLEL:=1
 PKG_INSTALL:=1

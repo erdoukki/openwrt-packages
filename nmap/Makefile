@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2006-2016 OpenWrt.org
+# Copyright (C) 2006-2017 OpenWrt.org
 #
 # This is free software, licensed under the GNU General Public License v2.
 # See /LICENSE for more information.
@@ -19,7 +19,7 @@ PKG_MAINTAINER:=Nuno Goncalves <nunojpg@gmail.com>
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.bz2
 PKG_SOURCE_URL:=http://nmap.org/dist/
-#PKG_MD5SUM:=f2f6660142a777862342a58cc54258ea
+PKG_MD5SUM:=f2f6660142a777862342a58cc54258ea
 PKG_LICENSE:=GPL-2.0
 PKG_LICENSE_FILES:=COPYING
 
