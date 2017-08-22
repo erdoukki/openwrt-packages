@@ -48,7 +48,8 @@ define Build/Prepare
 endef
 
 CONFIGURE_ARGS += \
-	--disable-zlib
+	--disable-zlib \
+	--disable-udev
 
 define Package/usbutils/install
 	$(INSTALL_DIR) $(1)/usr/bin
