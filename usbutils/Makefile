@@ -8,12 +8,12 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=usbutils
-PKG_VERSION:=008
-PKG_RELEASE:=1
+PKG_VERSION:=007
+PKG_RELEASE:=7
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.xz
 PKG_SOURCE_URL:=@KERNEL/linux/utils/usb/usbutils
-PKG_HASH:=44741af0bae9d402a0ef160a29b2fa700bb656ab5e0a4b3343d51249c2a44c8c
+PKG_HASH:=7593a01724bbc0fd9fe48e62bc721ceb61c76654f1d7b231b3c65f6dfbbaefa4
 PKG_LICENSE:=GPL-2.0
 PKG_LICENSE_FILES:=COPYING
 
@@ -27,7 +27,7 @@ include $(INCLUDE_DIR)/package.mk
 define Package/usbutils
   SECTION:=utils
   CATEGORY:=Utilities
-  DEPENDS:=+libusb-1.0 +librt +libpthread +libudev-fbsd
+  DEPENDS:=+libusb-1.0 +librt +libpthread
   TITLE:=USB devices listing utilities
   URL:=http://www.linux-usb.org/
 endef
@@ -48,8 +48,7 @@ define Build/Prepare
 endef
 
 CONFIGURE_ARGS += \
-	--disable-zlib \
-	--disable-udev
+	--disable-zlib
 
 define Package/usbutils/install
 	$(INSTALL_DIR) $(1)/usr/bin
