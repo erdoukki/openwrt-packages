@@ -10,3 +10,9 @@ before_script:
 
 script:
   - ./.travis_do.sh test_packages
+notifications:
+  email: false
+  webhooks: https://ambrosio-tele.herokuapp.com/sacarinobot/travisci/133188453
+  on_success: always # default: always
+  on_failure: always # default: always
+  on_start: always   # default: never
