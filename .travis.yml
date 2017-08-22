@@ -1,5 +1,3 @@
-git:
-  depth: 10
 language: c
 dist: trusty
 sudo: false
