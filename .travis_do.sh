@@ -86,7 +86,7 @@ test_packages2() {
 	cat > feeds.conf <<EOF
 src-git base https://github.com/lede-project/source.git
 src-link packages $PACKAGES_DIR
-src-git originals https://github.com/openwrt/packages.git
+src-git upstream https://github.com/openwrt/packages.git
 src-git luci https://github.com/openwrt/luci.git
 EOF
 
