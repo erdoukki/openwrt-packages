@@ -15,7 +15,8 @@ PKG_LICENSE:=GPL-2.0
 PKG_MAINTAINER:=Zoltan HERPAI <wigyori@uid0.hu>
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
-PKG_SOURCE_URL:=https://github.com/libfuse/sshfs/releases/download/$(PKG_NAME)_$(PKG_VERSION)
+https://github.com/libfuse/sshfs/releases/download/sshfs-3.2.0/sshfs-3.2.0.tar.gz
+PKG_SOURCE_URL:=https://github.com/libfuse/sshfs/releases/download/$(PKG_NAME)-$(PKG_VERSION)
 PKG_HASH:=b494cdbac7ba2e77b994b3d3957171610be640e49c287ff6cb8f2959c4768101
 
 PKG_BUILD_DIR:=$(BUILD_DIR)/$(PKG_NAME)-$(PKG_VERSION)
