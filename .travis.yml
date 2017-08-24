@@ -1,9 +1,15 @@
 language: c
 dist: trusty
 sudo: false
+env:
+  global:
+    - USE_CCACHE=1
+    - CCACHE_COMPRESS=1
+
 cache:
   directories:
     - $HOME/sdk
+  ccache
 
 before_script:
   - ./.travis_do.sh download_sdk
