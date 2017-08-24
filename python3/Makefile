@@ -72,8 +72,8 @@ $(call Package/python3/Default)
 endef
 
 define Package/python3-base/description
-  This package contains only the interpreter and the bare minimum
-  for the interpreter to start.
+  This package contains only the interpreter and the bare minimum for
+  the interpreter to start.
 endef
 
 define Package/python3-light
