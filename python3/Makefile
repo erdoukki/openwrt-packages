@@ -53,7 +53,7 @@ define Package/python3/Default
   CATEGORY:=Languages
   TITLE:=Python $(PYTHON_VERSION) programming language
   URL:=https://www.python.org/
-  MAINTAINER:=Alexandru Ardelean <ardeleanalex@gmail.com>
+  MAINTAINER:=hashashin <gentoo.power@gmail.com>
 endef
 
 define Package/python3/Default/description
