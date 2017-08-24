@@ -25,6 +25,7 @@ include $(INCLUDE_DIR)/package.mk
 define Package/whois
   SECTION:=net
   CATEGORY:=Network
+  DEPENDS:=+libidn
   TITLE:=WHOIS commandline utility
   URL:=http://ftp.debian.org/debian/pool/main/w/whois
   MAINTAINER:=hashashin <gentoo.power@gmail.com>
