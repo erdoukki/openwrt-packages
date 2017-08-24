@@ -12,10 +12,12 @@ cache:
     - $HOME/sdk
 
 before_script:
+  - chmod +x ./.travis_do.sh
   - ./.travis_do.sh download_sdk
 
 script:
   - ./.travis_do.sh test_packages
+
 notifications:
   email: false
   webhooks: https://ambrosio-tele.herokuapp.com/sacarinobot/travisci/133188453
