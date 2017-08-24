@@ -14,8 +14,8 @@ PKG_RELEASE:=1
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
 PKG_SOURCE_URL:=https://github.com/lcdproc/lcdproc/releases/download/v$(PKG_VERSION)/
 PKG_HASH:=d48a915496c96ff775b377d2222de3150ae5172bfb84a6ec9f9ceab962f97b83
-PKG_MAINTAINER:=Harald Geyer <harald@ccbib.org>, \
-		Philip Prindeville <philipp@redfish-solutions.com>
+PKG_MAINTAINER:=hashashin <gentoo.power@gmail.com>
+
 PKG_LICENSE:=GPL-2.0
 PKG_LICENSE_FILES:=COPYING
 
