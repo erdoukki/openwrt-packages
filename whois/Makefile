@@ -27,7 +27,7 @@ define Package/whois
   CATEGORY:=Network
   TITLE:=WHOIS commandline utility
   URL:=http://ftp.debian.org/debian/pool/main/w/whois
-  MAINTAINER:=Kihamo <dev@kihamo.ru>
+  MAINTAINER:=hashashin <gentoo.power@gmail.com>
 endef
 
 define Package/whois/description
