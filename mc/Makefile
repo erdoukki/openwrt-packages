@@ -48,7 +48,8 @@ endef
 define Package/$(PKG_NAME)/description
 GNU Midnight Commander is a visual file manager.
 It's a feature rich full-screen text mode application that allows you to copy,
-move and delete files and whole directory trees, search for files and run commands in the subshell.
+move and delete files and whole directory trees, search for files and run 
+commands in the subshell.
 Internal viewer and editor are included as well.
 
 endef
