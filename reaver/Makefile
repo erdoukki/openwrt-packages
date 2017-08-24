@@ -33,7 +33,7 @@ define Package/reaver
   SUBMENU:=wireless
   TITLE:=Efficient brute force attack against Wifi Protected Setup
   URL:=https://code.google.com/p/reaver-wps/
-  DEPENDS:=+libpcap +libsqlite3
+  DEPENDS:=+libpcap
 endef
 
 define Package/reaver/description
@@ -47,8 +47,6 @@ endef
 define Package/reaver/install
 	$(INSTALL_DIR) $(1)/usr/bin
 	$(INSTALL_BIN) $(PKG_BUILD_DIR)/src/{reaver,wash} $(1)/usr/bin/
-	$(INSTALL_DIR) $(1)/etc/reaver
-	$(INSTALL_DATA) $(PKG_BUILD_DIR)/src/reaver.db $(1)/etc/reaver/
 endef
 
 $(eval $(call BuildPackage,reaver))
