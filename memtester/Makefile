@@ -14,7 +14,7 @@ PKG_RELEASE:=1
 PKG_SOURCE:=$(PKG_NAME)_$(PKG_VERSION).orig.tar.xz
 PKG_SOURCE_URL:=http://http.debian.net/debian/pool/main/m/memtester/
 PKG_HASH:=1885ea856025125ef2ae2c058d7ddd7a0fc3281448c009c519b54bbbca02debf
-PKG_MAINTAINER:=GuoWei Lim <limguowei@gmail.com>
+PKG_MAINTAINER:=hashashin <gentoo.power@gmail.com>
 
 include $(INCLUDE_DIR)/host-build.mk
 include $(INCLUDE_DIR)/package.mk
