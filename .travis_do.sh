@@ -163,9 +163,9 @@ test_packages() {
 	test_commits && test_packages2 || return 1
 }
 
-echo_blue "=== Travis ENV"
-env
-echo_blue "=== Travis ENV"
+#echo_blue "=== Travis ENV"
+#env
+#echo_blue "=== Travis ENV"
 
 while true; do
 	# if clone depth is too small, git rev-list / diff return incorrect or empty results
