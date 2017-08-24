@@ -32,6 +32,7 @@ define Package/usbutils
   URL:=http://www.linux-usb.org/
 endef
 
+# db version 2017.06.22
 USB_IDS_REV:=2580d432ec65eb36058178d96188158474574d44
 USB_IDS_FILE:=usb.ids.$(USB_IDS_REV)
 define Download/usb_ids
