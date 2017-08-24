@@ -7,9 +7,9 @@ env:
     - CCACHE_COMPRESS=1
 
 cache:
+  ccache: true
   directories:
     - $HOME/sdk
-  ccache
 
 before_script:
   - ./.travis_do.sh download_sdk
