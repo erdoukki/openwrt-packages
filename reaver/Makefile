@@ -32,8 +32,8 @@ define Package/reaver
   CATEGORY:=Network
   SUBMENU:=wireless
   TITLE:=Efficient brute force attack against Wifi Protected Setup
-  URL:=https://code.google.com/p/reaver-wps/
-  DEPENDS:=+libpcap
+  URL:=https://github.com/t6x/reaver-wps-fork-t6x
+  DEPENDS:=+libpcap +pixiewps
 endef
 
 define Package/reaver/description
