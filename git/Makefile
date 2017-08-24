@@ -27,7 +27,7 @@ define Package/git/Default
   SUBMENU:=Version Control Systems
   DEPENDS:=+libopenssl +libpthread +librt +zlib
   URL:=http://git-scm.com
-  MAINTAINER:=Peter Wagner <tripolar@gmx.at>
+  MAINTAINER:=hashashin <gentoo.power@gmail.com>
 endef
 
 define Package/git
