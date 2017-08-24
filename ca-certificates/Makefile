@@ -8,7 +8,7 @@ include $(TOPDIR)/rules.mk
 
 PKG_NAME:=ca-certificates
 PKG_VERSION:=20170717
-PKG_MAINTAINER:=Christian Schoenebeck <christian.schoenebeck@gmail.com>
+PKG_MAINTAINER:=hashashin <gentoo.power@gmail.com>
 
 PKG_SOURCE:=$(PKG_NAME)_$(PKG_VERSION).tar.xz
 PKG_SOURCE_URL:=http://ftp.debian.org/debian/pool/main/c/ca-certificates
