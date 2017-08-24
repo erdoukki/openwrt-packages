@@ -21,7 +21,7 @@ PKG_HASH:=ba5b3eda44254efc5b7c9f776eb756f7cc323ad5d0813c101e92edb483d157e9
 PKG_BUILD_PARALLEL:=1
 PKG_INSTALL:=1
 
-PKG_MAINTAINER:=Rick Farina <zerochaos@gentoo.org>
+PKG_MAINTAINER:=hashashin <gentoo.power@gmail.com>
 
 include $(INCLUDE_DIR)/package.mk
 
