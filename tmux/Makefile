@@ -14,7 +14,7 @@ PKG_RELEASE:=1
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
 PKG_SOURCE_URL:=https://github.com/tmux/tmux/releases/download/$(PKG_VERSION)
 PKG_HASH:=ae135ec37c1bf6b7750a84e3a35e93d91033a806943e034521c8af51b12d95df
-PKG_MAINTAINER:=Maxim Storchak <m.storchak@gmail.com>
+PKG_MAINTAINER:=hashashin <gentoo.power@gmail.com>
 
 PKG_LICENSE:=ISC
 PKG_LICENSE_FILES:=COPYING
