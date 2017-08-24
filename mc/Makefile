@@ -10,7 +10,7 @@ include $(TOPDIR)/rules.mk
 PKG_NAME:=mc
 PKG_VERSION:=4.8.19
 PKG_RELEASE:=1
-PKG_MAINTAINER:=Dirk Brenken <dev@brenken.org>
+PKG_MAINTAINER:=hashashin <gentoo.power@gmail.com>
 PKG_LICENSE:=GPL-3.0+
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.xz
