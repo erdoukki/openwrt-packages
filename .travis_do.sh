@@ -104,7 +104,7 @@ EOF
 	# E.g: pkg_dir => admin/muninlite
 	# pkg_name => muninlite
 	for pkg_dir in $PKGS ; do
-		if $pkg_dir = "src"; then
+		if ${pkg_dir}='src'; then
 			continue
 		fi
 		pkg_name=$(echo "$pkg_dir" | awk -F/ '{ print $NF }')
@@ -119,7 +119,7 @@ EOF
 	[ $RET -ne 0 ] && return $RET
 
 	for pkg_dir in $PKGS ; do
-		if $pkg_dir = "src"; then
+		if ${pkg_dir}='src'; then
 			continue
 		fi
 		pkg_name=$(echo "$pkg_dir" | awk -F/ '{ print $NF }')

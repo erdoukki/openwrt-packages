@@ -1,4 +1,6 @@
-# from https://github.com/wiire-a/pixiewps
+#
+# source from https://github.com/wiire-a/pixiewps
+# 
 include $(TOPDIR)/rules.mk
 
 include version.mk
