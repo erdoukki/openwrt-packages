@@ -28,7 +28,7 @@ define Package/nagios-plugins
   CATEGORY:=Administration
   DEPENDS:=$(CXX_DEPENDS) +libpq +libopenssl +libradiusclient-ng +libopenldap
   TITLE:=plugins for Nagios checks
-  URL:=http://nagiosplug.sourceforge.net/
+  URL:=https://nagios-plugins.org
 endef
 
 CONFIGURE_ARGS += \
