@@ -21,7 +21,7 @@ define Package/netwhere
   CATEGORY:=Utilities
   TITLE:=Netwhere
   MAINTAINER:=Ben Smith
-  DEPENDS:=+libtins +libmicrohttpd
+  DEPENDS:=+libtins +libmicrohttpd +boost
 endef
 
 define Package/netwhere/description
