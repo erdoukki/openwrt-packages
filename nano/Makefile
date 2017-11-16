@@ -29,7 +29,7 @@ define Package/nano
   TITLE:=An enhanced clone of the Pico text editor
   URL:=http://www.nano-editor.org/
   MAINTAINER:=hashashin <gentoo.power@gmail.com>
-  DEPENDS:=+libncurses +zlib
+  DEPENDS:=+libncurses +zlib +libncursesw
 endef
 
 define Package/nano/description
