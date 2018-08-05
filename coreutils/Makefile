@@ -14,7 +14,7 @@ PKG_RELEASE:=1
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.xz
 PKG_SOURCE_URL:=@GNU/coreutils
 PKG_HASH:=8891d349ee87b9ff7870f52b6d9312a9db672d2439d289bc57084771ca21656b
-PKG_BUILD_DEPENDS:=libpthread
+#PKG_BUILD_DEPENDS:=libpthread
 PKG_MAINTAINER:=Jo-Philipp Wich <jo@mein.io>
 
 PKG_BUILD_PARALLEL:=1
@@ -32,7 +32,7 @@ COREUTILS_APPLETS := \
 	timeout touch tr true truncate tsort tty uname unexpand	uniq unlink	\
 	uptime users vdir wc who whoami yes
 
-DEPENDS_sort = +libpthread
+#DEPENDS_sort = +libpthread
 DEPENDS_timeout = +librt
 DEPENDS_expr = +libgmp
 DEPENDS_factor = +libgmp
