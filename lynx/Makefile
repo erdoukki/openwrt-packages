@@ -13,7 +13,7 @@ PKG_RELEASE:=1
 
 PKG_SOURCE:=$(PKG_NAME)$(PKG_VERSION).tar.gz
 PKG_SOURCE_URL:=https://invisible-mirror.net/archives/lynx/tarballs/
-#PKG_MD5SUM:=289255204d23c2c3e8094b50a8638dfc
+PKG_HASH:=899e3531cc9446e73dc5ebe63ea5f062
 
 PKG_BUILD_DIR:=$(BUILD_DIR)/$(PKG_NAME)$(PKG_VERSION)
 

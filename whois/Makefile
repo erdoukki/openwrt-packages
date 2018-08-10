@@ -8,13 +8,13 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=whois
-PKG_VERSION:=5.2.18
+PKG_VERSION:=5.3.2
 PKG_RELEASE:=1
 
 PKG_BUILD_DIR:=$(BUILD_DIR)/$(BUILD_VARIANT)/$(PKG_NAME)-$(PKG_VERSION)
 PKG_SOURCE:=$(PKG_NAME)_$(PKG_VERSION).tar.xz
 PKG_SOURCE_URL:=http://ftp.debian.org/debian/pool/main/w/whois
-PKG_HASH:=c35d0d26aff37107c244a8ad54fd42e497ec0b90f76309e9beb7078b827c97d5
+PKG_HASH:=79714ba89172bca08a2443f59885daa4af0c5f8d6a49bc9e7f2a83559a286354
 PKG_CAT:=xzcat
 
 PKG_INSTALL:=1
@@ -25,7 +25,7 @@ include $(INCLUDE_DIR)/package.mk
 define Package/whois
   SECTION:=net
   CATEGORY:=Network
-  DEPENDS:=+libidn
+  DEPENDS:=+libidn2
   TITLE:=WHOIS commandline utility
   URL:=http://ftp.debian.org/debian/pool/main/w/whois
   MAINTAINER:=hashashin <gentoo.power@gmail.com>
