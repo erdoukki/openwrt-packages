@@ -1,0 +1,3 @@
+[submodule "luci-theme-darkmatter"]
+	path = luci-theme-darkmatter
+	url = git@github.com:apollo-ng/luci-theme-darkmatter.git
